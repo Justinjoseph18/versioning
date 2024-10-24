@@ -1,0 +1,13 @@
+name: 'Version Bump Action'
+description: 'Bump version based on PR title and create a release'
+inputs:
+  token:
+    description: 'GitHub token for authentication'
+    required: true
+  default_version:
+    description: 'Default version to start from if no tags or versions are found'
+    required: false
+    default: 'v0.0.0'
+runs:
+  using: 'node12'
+  main: 'index.js'
