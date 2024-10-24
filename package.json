@@ -1,0 +1,13 @@
+{
+    "name": "versioning-action",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"No tests specified\""
+    },
+    "dependencies": {
+      "@actions/core": "^1.10.0",
+      "@actions/exec": "^1.0.0"
+    }
+  }
+  
